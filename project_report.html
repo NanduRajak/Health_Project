@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Well Being Health Project Report</title>
+</head>
+<body>
+    <h1> <img src="/heart-rate.png" height="55">Empowering Health and Well-Being through Accessible Information.</h1>
+    <hr>
+    <p>
+        <img src="/exercise.png" height="75px"> 
+        In today’s world, our health is often the first thing we sacrifice when life gets busy. Between work, family, and daily responsibilities, taking care of ourselves can feel like a luxury rather than a necessity. 
+    Yet, good health isn’t just about avoiding illness; it’s the foundation of a fulfilling life.
+    When we’re healthy—physically, mentally, and emotionally—we’re able to engage more fully with our loved ones, pursue our goals, and tackle challenges with confidence.
+    </p>
+    <p>
+        Daily progress on the project has involved implementing various stages of the machine learning pipeline. Initially, the dataset was loaded and prepared. The challenge here was to ensure that all necessary columns were present in the data. To address this, I incorporated a feature that adds synthetic data for any missing columns, such as 'SurvivalDays' and 'HealthCondition'. This not only streamlined the process but also ensured the model could function effectively without interruptions due to data inconsistencies.
+    </p>
+    <p> 
+        As the project advanced, preprocessing the data emerged as a crucial task. Encoding categorical variables and standardizing numerical features were essential steps. However, some categorical variables were not present in the dataset, leading to warnings during the encoding process. To overcome this, I added checks and informative messages to alert about missing columns, allowing for quick adjustments to the data preparation phase.
+    </p>    
+    <h2>Why does this matter in daily life?</h2> 
+    <hr>
+    
+    <p>  Health impacts everything we do—from our energy levels and mood to how we engage with others and how we perform at work or school. Unfortunately, many of us overlook the small habits that build up to create a healthy lifestyle. Let’s consider a few real-life scenarios:</p>
+      
+<img src="/practice.png" height="75">
+    <p> 1. Mental Health: A growing number of people experience stress, anxiety, and even burnout without knowing how to manage these feelings.
+        Imagine an office worker who is constantly stressed, unaware of simple techniques like deep breathing, mindfulness, or even the benefits of talking to a friend or professional.
+        Our project can provide these individuals with easy access to mental health resources and coping strategies, helping them feel more in control of their lives.
+    </p>
+
+    <img src="/healthy-food.png" height="75">
+    <p>2. Lifestyle-Related Illnesses: Diseases like diabetes and high blood pressure are becoming more common, often because people don’t realize the long-term impact of poor diet and lack of exercise.
+       Picture a parent juggling work and family who doesn’t have time to research balanced diets or easy exercise routines.
+       A platform that offers practical tips and health-tracking tools can help them make small, manageable changes—like preparing healthier meals or squeezing in a quick walk—that add up over time.
+    </p>
+
+    <img src="/mood-board.png" height="75">
+    <p>
+       3. Simple Health Tracking for Busy> Individuals: Most of us have moments when we neglect our health basics, like drinking enough water or getting enough sleep.</p>
+       
+       For example, a student may rely on caffeine to stay alert, overlooking the need for adequate rest, which affects their mood and concentration.
+        Our platform could send gentle reminders to drink water, take short breaks, or reflect on their sleep patterns, helping users adopt healthier routines without disrupting their daily lives.
+    </p>       
+<h2>What’s our aim?</h2> 
+<img src="/conversation.png" height="75">
+<p>This project has a simple mission: to empower individuals by making health information accessible, relatable, and practical. 
+    By providing resources on physical and mental health, we’re creating a community that supports each other in leading healthier lives. 
+    We envision a space where people can find guidance on topics like preventive care, mental well-being, and lifestyle habits, and feel encouraged to make changes that truly matter.</p>
+<p>
+This project aligns with, The United Nations Sustainable Development Goals - Good Health and Well-Being. 
+By supporting people in understanding and prioritizing their health, we’re not just tackling individual issues; we’re contributing to a larger movement for healthier, happier communities.
+</p>
+
+
+<h2>Objectives</h2>
+<img src="/brain.png" height="75">
+
+<h4>Our primary goal is to promote "Good Health and Well-Being" by creating an accessible platform that educates and empowers individuals to take control of their health.</h4>
+    <h5>This project aims to:</h5>
+<ul>
+
+<li>Increase Health Awareness: Provide accurate and easy-to-understand information on physical and mental health, including preventive care, nutrition, and lifestyle habits.</li>
+<li>mprove Mental Health Access: Promote mental health by offering resources for managing stress, anxiety, and other common issues, including links to professional support.</li>
+<li>Encourage Healthy Lifestyles: Offer tools and tips for tracking personal health habits (e.g., exercise, sleep, hydration), encouraging positive lifestyle choices.</li>
+<li>Faster Community Engagement: Create a sense of community and support by connecting users with similar health goals and local health resources.</li>
+
+</ul>
+<p>
+    Training the models was another significant phase, where I implemented both classification and regression techniques using Random Forest algorithms. The challenge was to optimize the regressor for predicting survival days effectively. This led me to explore hyperparameter tuning with GridSearchCV, which significantly improved the model’s performance. Despite initial difficulties with achieving a satisfactory mean absolute error, this iterative tuning process ultimately resulted in a robust model capable of providing accurate predictions.
+</p>
+
+
+<h2>Sources<h2>
+    <img src="/world.png" height="75">
+
+<h4>Our project will rely on reliable and evidence-based sources to ensure the accuracy and relevance of health information provided.</h4> 
+<h5>Key sources include:</h5>
+
+<ul>
+
+<li>World Health Organization (WHO): Guidelines and reports on health issues, statistics, and preventive measures.</li>
+<li>Centers for Disease Control and Prevention (CDC): Information on disease prevention, mental health resources, and health recommendations.</li>
+<li>Peer-Reviewed Journals: Research articles from reputable medical and psychological journals to back up the project’s recommendations.</li>
+<li>Local Health Organizations: Collaborate with local health authorities to provide region-specific resources and events.</li>
+<li>Community Feedback: Regular feedback from users and community members to ensure the platform addresses their real needs.</li>
+
+</ul>
+<p>
+    The sources for this project included various academic articles on machine learning in healthcare, as well as documentation for libraries such as Scikit-learn and Pandas. These resources provided foundational knowledge and best practices for model development and evaluation.
+</p>
+
+
+<h2>Methodologies</h2>
+<img src="/analytics.png" height="75">
+
+<h4>The project will be implemented in stages to ensure thorough research, user-centered design, and effective dissemination.</h2>
+<h5>Methodologies include:</h5>
+<ul>
+
+<li>Literature Review: Begin with a review of existing research on health awareness, mental health management, and lifestyle tracking. This ensures our platform content is up-to-date and relevant.</li>
+<li>User-Centered Design: Conduct surveys and focus groups to understand the needs of our target audience, which will guide the platform's features and usability.</li>
+<li>Platform Development: Create a user-friendly app/website where users can access resources, track health metrics, and engage with the community. The platform will be optimized for both desktop and mobile users.</li>
+<li>Awareness Campaign: Launch a campaign to raise awareness of the platform, focusing on social media outreach, community events, and partnerships with local health organizations.</li>
+<li>Impact Evaluation: Use feedback forms, usage statistics, and user interviews to evaluate the platform’s impact on user knowledge and behavior over time. Adjust the platform as needed to increase engagement and effectiveness.</li>
+
+</ul>
+<p>
+    Methodologically, The project utilized a systematic approach beginning with data loading, followed by preprocessing, model training, and evaluation. Each step was meticulously crafted to ensure data integrity and model performance, employing best practices from the field of data science and machine learning.
+</p>
+
+
+<h2>Focus on SDG (Sustainable Development Goal)</h2>
+<img src="/target.png" height="75">
+<h4>This project directly aligns with "Goal 3: Good Health and Well-Being" by addressing several critical targets within the SDG framework:</h4> 
+<ul>
+
+<li>Target 3.4: By 2030, reduce premature mortality from non-communicable diseases through prevention and treatment, and promote mental health and well-being. Our project supports this by providing preventive health information and mental health resources.</li>
+<br>
+<li>Target 3.5: Strengthen the prevention and treatment of substance abuse, including drugs and alcohol. Educational resources on healthy coping mechanisms and support networks will be available on the platform.</li>
+<br>
+<li>Target 3.8: Achieve universal health coverage, including financial risk protection, access to quality essential healthcare services. Although our platform doesn’t provide direct healthcare, it offers knowledge that empowers users to make informed decisions about seeking healthcare services.</li>
+<br>
+<li> 3.D: Improve early warning, risk reduction, and management of health risks. By educating users on lifestyle risks and preventive practices, we contribute to early health risk identification.</li>
+
+</ul>
+<p>
+    The project focuses on analyzing healthcare data to predict health risks and survival outcomes. As we progress in the realm of healthcare analytics, leveraging machine learning techniques to improve patient outcomes has become increasingly vital. This report outlines the development of a predictive model using a dataset to identify health conditions and estimate survival days for patients, aligning with the Sustainable Development Goals (SDGs) related to health and well-being.
+</p>
+
+
+<hr>
+
+<img src="/bow.png" height="75">
+<p>
+    This project not only showcases the implementation of machine learning in healthcare analytics but also emphasizes the iterative nature of developing effective predictive models.
+    The lessons learned throughout the process, from data preparation to model evaluation, reinforce the importance of adaptability and thoroughness in tackling real-world problems. 
+    By continuously refining the approaches and leveraging technology, we can foster advancements in health management that align with the sustainable development goals.
+    This journey has been both challenging and rewarding, marking a significant step towards improving healthcare outcomes through innovative solutions.
+</p>
+<p>
+    <p>Our project seeks to bridge the gap between health knowledge and practice by providing a friendly, accessible platform that empowers users to take charge of their health.
+        Through partnerships with trusted sources, community engagement, and a commitment to sustainable development goals, this initiative will contribute to a healthier, more informed society.
+     </p>
+     
+</p>
+</body>
+</html>
